@@ -18,7 +18,7 @@
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url("./img/open-purple.svg");
+    background-image: url("./assets/svg/open-purple.svg");
     background-size: contain;
 }
 
@@ -27,6 +27,6 @@
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url("./img/open.svg");
+    background-image: url("./assets/svg/open.svg");
     background-size: contain;
 }

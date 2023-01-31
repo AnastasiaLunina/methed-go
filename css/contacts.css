@@ -1,0 +1,37 @@
+.address__item {
+    padding-left: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.social__link {
+    display: block;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    outline: 1px solid transparent;
+    outline-offset: 3px;
+    border-radius: 50%;
+    transition-property: color, outline-color;
+    transition-duration: 0.3s, 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.social__link:hover {
+    color: #CD06FF;
+}
+
+.social__link:focus {
+    outline-color: #CD06FF;
+}
+
+.social__link:active {
+    color: #840AA3;
+}

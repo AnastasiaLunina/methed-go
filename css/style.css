@@ -3,8 +3,9 @@
 }
 
 body {
-    background-color: #1B1A1B;
-    color: #FFFFFF;
+    background-color: #1b1a1b;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
 }
 
 blockquote {
