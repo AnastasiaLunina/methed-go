@@ -1,6 +1,17 @@
 .hero {
-    max-height: 823px;
+    min-height: 823px;
     position: relative;
+}
+
+.hero:after {
+    content: "";
+    background-image: url('../assets/img/hero.png');
+    position: absolute;
+    width: 675px;
+    height: 762px;
+    top: 207px;
+    right: 130px;
+    z-index: -1;
 }
 
 .hero__title {
@@ -14,17 +25,6 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 146px;
     z-index: 1;
-}
-
-.hero__title:after {
-    content: "";
-    background-image: url('../assets/img/hero.png');
-    width: 675px;
-    position: absolute;
-    height: 762px;
-    top: 207px;
-    right: 130px;
-    z-index: -1;
 }
 
 .hero__par {
