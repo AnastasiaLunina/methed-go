@@ -1,14 +1,68 @@
+.contact__heading {
+    padding-bottom: 60px;
+    padding-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .address__item {
     padding-left: 35px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff ;
+}
+
+.address__item {
+    position: relative;
+}
+
+.address__link-street:before {
+    content: "";
+    background-image: url("../assets/svg/contact-location.svg");
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 0;
+}
+
+.address__link-phone:before {
+    content: "";
+    background-image: url("../assets/svg/contact-phone.svg");
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 0;
+}
+
+.address__link-email:before {
+    content: "";
+    background-image: url("../assets/svg/contact-envelope.svg");
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 0;
 }
 
 .social {
     display: flex;
     justify-content: space-between;
     width: 280px;
+    padding-bottom: 51px;
+    padding-top: 51px;
 }
 
 .social__link {

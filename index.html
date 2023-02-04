@@ -17,10 +17,9 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+  <!-- <div class="container"> -->
+    <!-- <header class="section">
       <img src="./assets/svg/logo.svg" alt="go logo" aria-hidden="true" width="120px" height="66px">
-
       <h1>Menu</h1>
       <nav>
         <ul>
@@ -31,78 +30,90 @@
           <li><a href="#section__contact">Contact us</a></li>
         </ul>
       </nav>
-    </header>
+    </header> -->
 
     <main>
-      <section class="hero">
+      <section class="section hero">
+        <div class="container">
           <div class="hero__content">
-            <h2 class="hero__title">game over</h2>
+            <h1 class="hero__title">game over</h1>
             <p class="hero__par">New entertainment format for games</p>
           </div>
+        </div>
       </section>
 
-      <section>
+      <!-- <section class="section">
         <h2>We have everything to party with your friends!</h2>
         <ul>
           <li>
             <img src="./assets/img/vr.png" alt="VR headsets" aria-hidden="true" width="380px" height="228px">
-            <br>
             VR headsets
           </li>
           <li>
             <img src="./assets/img/audio.png" alt="Audio-system 5.1 with outstanding sound" aria-hidden="true" width="380px"
               height="228px">
-            <br>
             Audio-system 5.1 with outstanding sound
           </li>
           <li>
             <img src="./assets/img/micro.png" alt="Karaoke (4 mics)" aria-hidden="true" width="380px" height="228px">
-            <br>
             Karaoke (4 mics)
           </li>
           <li>
             <img src="./assets/img/game.png" alt="Table games" aria-hidden="true" width="380px" height="228px">
-            <br>
             Table games
           </li>
           <li>
             <img src="./assets/img/netflix.png" alt="Movie services Netflix, IVI, MegoGo, KinoPoisk, Okko" aria-hidden="true"
               width="380px" height="228px">
-            <br>
             Movie services Netflix, IVI, MegoGo, KinoPoisk, Okko
           </li>
           <li>
             <img src="./assets/img/sony.png" alt="PlayStation 5" aria-hidden="true" width="380px" height="228px">
-            <br>
             PlayStation 5
           </li>
         </ul>
-      </section>
+      </section> -->
 
-      <section id="section__rooms">
-        <h2>Our rooms:</h2>
-        <ul> 
-          <li>
-            <a href="vibes.html">80's vibes</a>
+      <section class="section rooms" id="section__rooms">
+        <div class="container">
+
+        <h2 class="rooms__heading">Our rooms</h2>
+        <ul class="rooms__list"> 
+          <li class="rooms__item eighty">
+            <a class="rooms__link" href="vibes.html">
+              <p>80's</p>
+              <p>vibes</p>
+            </a>
           </li>
-          <li>
-            <a href="startwars.html">Star wars</a>
+          <li class="rooms__item starwars">
+            <a class="rooms__link" href="startwars.html">
+              <p>Star</p>
+              <p>wars</p>
+            </a>
           </li>
-          <li>
-            <a href="wildwest.html">Wild west</a>
+          <li class="rooms__item wildwest">
+            <a class="rooms__link" href="wildwest.html">
+              <p>Wild</p>
+              <p>west</p>
+            </a>
           </li>
-          <li>
-            <a href="neon.html">Neon style</a>
+          <li class="rooms__item neon">
+            <a class="rooms__link" href="neon.html">
+              <p>Neon</p>
+              <p>style</p>
+            </a>
           </li>
         </ul>
+        </div>
       </section>
 
-      <section id="section__book">
-        <h2>Booking is easy</h2>
-        <h3>Choose your room</h3>
+      <section class="section" id="section__book">
+        <div class="container">
 
-        <form id="book-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-          <fieldset style="width:500px">
+        <h2 class="book__heading">Booking is easy</h2>
+        <!-- <h3>Choose your room</h3> -->
+        <form class="book__form" id="book-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <fieldset class="book__form-fieldset">
             <label for="vibes">
               <input id="vibes" type="radio" name="rooms" value="80s">80's vibes
             </label>
@@ -117,10 +128,10 @@
             </label>
           </fieldset>
 
-          <fieldset style="width:500px">
+          <fieldset>
             <legend>Customize your entertainment set</legend>
 
-            <fieldset style="width:450px">
+            <fieldset>
               <legend>Game consoles</legend>
               <label for="playstation">
                 <input id="playstation" type="radio" name="games" value="playstation">PlayStation
@@ -139,7 +150,7 @@
               </label>
             </fieldset>
 
-            <fieldset style="width:450px">
+            <fieldset>
               <legend>Table games</legend>
               <label for="jenga">
                 <input id="jenga" type="checkbox" name="table-games" value="jenga">Jenga
@@ -158,7 +169,7 @@
               </label>
             </fieldset>
 
-            <fieldset style="width:450px">
+            <fieldset>
               <legend>Additional</legend>
               <label for="karaoke">
                 <input id="karaoke" type="checkbox" name="additional-games" value="karaoke">Karaoke
@@ -170,7 +181,7 @@
             </fieldset>
           </fieldset>
 
-          <fieldset style="width:500px">
+          <fieldset>
             <legend>Choose date and time</legend>
             <label for="date">
               Date<input type="date" id="date" name="date" required>
@@ -205,27 +216,40 @@
             <input id="policy" type="checkbox" name="policy" value="policy" required>I agree to privacy policy
           </label>
         </form>
-      </section>
-
-      <section id="section__about">
-        <h2>About us</h2>
-        <p>For our guests we created <em>conceptually new virtual reality gaming space</em> in a heart of our city.</p>
-        <p>Every day we are working on creating the best atmosphere for gaming and we want to continue bring a joy with our top notch games from all over the world.</p>
-
-        <div>
-          <img class="quote__img" src="./assets/img/owner.jpg" alt="Arkadiy Abakshin, the creator of gaming space GAME OVER" aria-hidden="true">
-          <blockquote>
-            <p>&laquo<strong>GAME OVER - </strong>this is the place with unforgettable memories&raquo</p>
-            <cite><em>Arkadiy Abakshin, the creator of gaming space GAME OVER</em></cite>
-          </blockquote>
         </div>
       </section>
 
-      <section id="section__reviews">
+      <section class="section" id="section__about">
+        <div class="container">
+
+        <h2 class="about__heading">About us</h2>
+        <div class="about__paragraph-wrapper">
+          <p class="about__paragraph">For our guests we created <em>conceptually new virtual reality gaming space</em> in a heart of our city.</p>
+          <p class="about__paragraph">Every day we are working on creating the best atmosphere for gaming and we want to continue bring a joy with our top notch games from all over the world.</p>
+        </div>
+
+        <div class="about__owner">
+          <blockquote class="about__owner-quote">
+            GAME OVER — <br>
+            the place with unforgettable memories
+          </blockquote>
+
+          <figure class="about__owner_img">
+            <img class="owner__img" src="./assets/img/owner.jpg" alt="Arkadiy Abakshin, the creator of gaming space GAME OVER">
+            <figcaption>
+              Arkadiy Abakshin, 
+              the creator of gaming space GAME OVER
+            </figcaption>
+          </figure>
+        </div>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="section__reviews">
         <h2>Reviews</h2>
 
         <figure>
-          <img class="reviews__img" src="./assets//img/review1.jpg" alt="Max Samoylov" width="200" height="200" style="border-radius: 50%">
+          <img class="reviews__img" src="./assets//img/review1.jpg" alt="Max Samoylov">
           <figcaption>Mary Samoylova</figcaption>
           <div>
             <p>Celebrated a birthday here with my friends, everything was so cool! VR headset is amazing, never
@@ -233,7 +257,7 @@
           </div>
         </figure>
         <figure>
-          <img class="reviews__img" src="./assets/img/review3.jpg" alt="Oxana Grigoreva" width="200" height="200" style="border-radius: 50%">
+          <img class="reviews__img" src="./assets/img/review3.jpg" alt="Oxana Grigoreva">
           <figcaption>Oxana Grigoreva</figcaption>
           <div>
             <p>We visited the Wild West room. We sang Shakira's songs in karaoke - it was a fun corporate event! There
@@ -242,17 +266,19 @@
           </div>
         </figure>
         <figure>
-          <img class="reviews__img" src="./assets/img/review2.jpg" alt="Nikita Yashenko" width="200" height="200" style="border-radius: 50%">
+          <img class="reviews__img" src="./assets/img/review2.jpg" alt="Nikita Yashenko">
           <figcaption>Nikita Yashenko</figcaption>
           <div>
             <p>The game in the VR headset was a bit slow, other than that everything was OK. Cool Star wars decor, feels
               like you are in space</p>
           </div>
         </figure>
-      </section>
+      </section> -->
 
-      <section>
-        <h2>Frequently asked questions</h2>
+      <section class="section">
+        <div class="container">
+
+        <h2 class="faq__heading">Frequently asked questions</h2>
         <ul class="faq__list">
           <li class="faq__list_item">Can I book game room online?</li>
           <li class="faq__list_item">Can I get a refund for booking?</li>
@@ -260,18 +286,20 @@
           <li class="faq__list_item">How can I get a VIP card?</li>
           <li class="faq__list_item">Which room is the least popular?</li>
         </ul>
+        </div>
       </section>
     </main>
 
-    <footer id="section__contact">
-      <h2>Contacts</h2>
+    <footer class="section" id="section__contact">
+      <div class="container">
+      <h2 class="contact__heading">Contacts</h2>
       <ul class="address">
-        <li class="address__item">г. Москва ул. Аквамарина, 16</li>
+        <li class="address__item address__link-street">г. Москва ул. Аквамарина, 16</li>
         <li class="address__item">
-          <a class="address__link" href="tel:89509302893">8(950)930-28-93</a>
+          <a class="address__link address__link-phone" href="tel:89509302893">8(950)930-28-93</a>
         </li>
         <li class="address__item">
-          <a class="address__link" href="mailto:GameOver@gmail.com?subject=Help&body=Hello">GameOver@gmail.com</a>
+          <a class="address__link address__link-email" href="mailto:GameOver@gmail.com?subject=Help&body=Hello">GameOver@gmail.com</a>
         </li>
       </ul>
 
@@ -301,7 +329,7 @@
         </li>
 
         <li class="social__item">
-          <a href="#" class="social__link socila__stambleupon" aria-label="Link to stambleupon">
+          <a href="#" class="social__link social__stambleupon" aria-label="Link to stambleupon">
             <svg width="50" height="50" viewbox="0 0 50 50" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M44.7441 9.66919C48.1583 14.0494 50.0085 19.4463 49.9999 24.9999C49.9999 38.8051 38.805 49.9999 25.0006 49.9999C15.2871 49.9999 6.86597 44.4576 2.72751 36.3647H13.6237C18.816 36.3647 22.4429 33.566 22.4429 29.0923C22.4429 19.6108 11.5051 23.4737 11.5051 20.1089C11.5051 18.4878 12.8057 17.898 15.1858 17.898H22.7692C24.8711 17.898 27.3435 18.275 27.3435 20.5685V28.1243C27.3435 33.5955 31.6159 36.364 36.0441 36.364C40.548 36.364 44.7435 33.5955 44.7435 28.1243V9.66919H44.7441V9.66919Z" />
               <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0005 2.43241e-05C30.0173 -0.00698868 34.919 1.50262 39.0626 4.33079V28.3013C39.0626 29.9628 37.7037 31.3224 36.0447 31.3224C34.3838 31.3224 33.0261 29.9628 33.0261 28.3013V21.1186C33.0261 15.3846 30.1242 12.9994 26.3447 12.9994H14.0441C9.59088 12.9994 5.89665 15.834 5.89665 20.3289C5.89665 22.6289 6.8819 25.9994 11.5415 26.8353C15.337 27.5186 16.8351 27.3199 16.8351 29.3506C16.8351 31.3224 14.6261 31.3224 11.7101 31.3224H0.808189C0.269676 29.2582 -0.0019826 27.1334 -0.000143311 25C-0.000143311 11.1981 11.196 2.43241e-05 25.0005 2.43241e-05Z" />
@@ -309,7 +337,8 @@
           </a>
         </li>
       </ul>
+      </div>
     </footer>
-  </div>
+  <!-- </div> -->
 </body>
 </html>

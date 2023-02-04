@@ -1,3 +1,15 @@
+.faq__heading {
+    padding-bottom: 40px;
+    padding-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .faq__list_item {
     background-color: #fff;
     color: #1C1A1A;
@@ -6,6 +18,7 @@
     padding: 30px 70px;
     margin-bottom: 20px;
     list-style-type: none;
+    position: relative;
 }
 
 .faq__list_item:nth-child(even) {
@@ -13,20 +26,26 @@
     color: #fff;
 }
 
-.faq__list_item::after {
+.faq__list_item:after {
     content: "";
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 46px;
+    height: 46px;
     background-image: url("./assets/svg/open-purple.svg");
     background-size: contain;
+    position: absolute;
+    right: 90px;
+    top: 19px;
 }
 
 .faq__list_item:nth-child(even):after {
     content: "";
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 46px;
+    height: 46px;
     background-image: url("./assets/svg/open.svg");
     background-size: contain;
+    position: absolute;
+    right: 90px;
+    top: 19px;
 }

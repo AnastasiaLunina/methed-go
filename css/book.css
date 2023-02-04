@@ -1,0 +1,16 @@
+.book__heading {
+    padding-bottom: 60px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.book__form {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}

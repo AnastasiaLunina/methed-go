@@ -1,6 +1,8 @@
+@import './css/normalize.css';
 @import './css/style.css';
-@import './css/globals.css';
 @import './css/hero.css';
+@import './css/rooms.css';
+@import './css/book.css';
 @import './css/about.css';
 @import './css/reviews.css'; 
 @import './css/faq.css';

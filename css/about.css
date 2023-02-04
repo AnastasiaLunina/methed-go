@@ -1,5 +1,84 @@
-.quote__img {
+.about__heading {
+    padding-bottom: 60px;
+    padding-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about__paragraph {
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.about__paragraph:last-child {
+    padding-top:  50px;
+    padding-bottom: 78px;
+}
+
+.about__owner-quote {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.about__owner-quote:before {
+    content: " “ ";
+    display: inline;
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.about__owner-quote:after {
+    content: " ” ";
+    display: inline;
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+.about__owner_img {
+    padding-left: 791px;
+    margin-right: 0;
+}
+
+.owner__img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.about__owner_img figcaption {
+    display: inline-block;
+    width: 234px;
+    height: 80px;
+    font-size: 20px;
+    line-height: 32px;
+    white-space: pre-line;
 }

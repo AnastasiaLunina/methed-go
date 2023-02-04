@@ -1,23 +1,38 @@
+.hero {
+    max-height: 823px;
+    position: relative;
+}
+
 .hero__title {
-    min-width: 883px;
-    min-height: 150px;
-    font-style: normal;
     font-weight: 900;
     font-size: 150px;
     line-height: 100%;
-    text-align: center;
+    font-family: "Arial Black", sans-serif;
     text-transform: uppercase;
     letter-spacing: -0.1em;
     color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 146px;
+    z-index: 1;
+}
+
+.hero__title:after {
+    content: "";
+    background-image: url('../assets/img/hero.png');
+    width: 675px;
+    position: absolute;
+    height: 762px;
+    top: 207px;
+    right: 130px;
+    z-index: -1;
 }
 
 .hero__par {
     min-width: 369px;
     min-height: 50px;
-    font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 50px;
     color: #ffffff;
+    padding-left: 100px;
 }
