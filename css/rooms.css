@@ -22,6 +22,10 @@
     margin-bottom: 100px;
   }
 
+.rooms__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
 .rooms__link {
     font-family: 'Arial', sans-serif;
     font-style: normal;
