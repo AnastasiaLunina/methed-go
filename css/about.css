@@ -25,7 +25,7 @@
     padding-bottom: 78px;
 }
 
-.about__owner-quote {
+.about__owner_quote {
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -35,7 +35,7 @@
     color: #ffffff;
 }
 
-.about__owner-quote:before {
+.about__owner_quote:before {
     content: " “ ";
     display: inline;
     color: #6C0287;
@@ -48,7 +48,7 @@
 
 }
 
-.about__owner-quote:after {
+.about__owner_quote:after {
     content: " ” ";
     display: inline;
     color: #6C0287;
@@ -61,12 +61,12 @@
     
 }
 
-.about__owner_img {
+.about__owner_img-wrapper {
     padding-left: 791px;
     margin-right: 0;
 }
 
-.owner__img {
+.about__owner_img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -74,7 +74,7 @@
     margin-right: 20px;
 }
 
-.about__owner_img figcaption {
+.about__owner_img-wrapper figcaption {
     display: inline-block;
     width: 234px;
     height: 80px;

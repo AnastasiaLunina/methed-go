@@ -1,9 +1,8 @@
 .rooms {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .rooms__heading {
-    padding-top: 100px;
     padding-bottom: 60px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
@@ -41,22 +40,22 @@
     right: 0;
 }
 
-.eighty {
+.rooms__item_eighty {
     position: relative;
     background: #050404 url('../assets/img/80-room.jpg') center center/cover no-repeat content-box padding-box;
 }
 
-.starwars {
+.rooms__item_starwars {
     position: relative;
     background-image: url('../assets/img/starwars-room.jpg');
 }
 
-.wildwest {
+.rooms__item_wildwest {
     position: relative;
     background-image: url('../assets/img/wildwest-room.jpg');
 }
 
-.neon {
+.rooms__item_neon {
     position: relative;
     background-image: url('../assets/img/neon-room.jpg');
 }

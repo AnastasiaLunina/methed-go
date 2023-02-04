@@ -1,6 +1,7 @@
 .hero {
-    min-height: 823px;
+    min-height: 869px;
     position: relative;
+    padding-bottom: 0;
 }
 
 .hero:after {

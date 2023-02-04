@@ -10,7 +10,7 @@
     text-transform: uppercase;
 }
 
-.address__item {
+.contact__item {
     padding-left: 35px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,13 +21,10 @@
     font-size: 24px;
     line-height: 28px;
     color: #ffffff ;
-}
-
-.address__item {
     position: relative;
 }
 
-.address__link-street:before {
+.contact__link_address-street:before {
     content: "";
     background-image: url("../assets/svg/contact-location.svg");
     display: block;
@@ -35,9 +32,10 @@
     width: 35px;
     height: 33px;
     left: 0;
+    padding-right: 32px;
 }
 
-.address__link-phone:before {
+.contact__link_address-phone:before {
     content: "";
     background-image: url("../assets/svg/contact-phone.svg");
     display: block;
@@ -47,7 +45,7 @@
     left: 0;
 }
 
-.address__link-email:before {
+.contact__link_address-email:before {
     content: "";
     background-image: url("../assets/svg/contact-envelope.svg");
     display: block;
@@ -57,7 +55,7 @@
     left: 0;
 }
 
-.social {
+.contact__social {
     display: flex;
     justify-content: space-between;
     width: 280px;
@@ -65,7 +63,7 @@
     padding-top: 51px;
 }
 
-.social__link {
+.contact__social__link {
     display: block;
     height: 50px;
     width: 50px;
@@ -78,14 +76,14 @@
     transition-timing-function: ease-in-out;
 }
 
-.social__link:hover {
+.contact__social__link:hover {
     color: #CD06FF;
 }
 
-.social__link:focus {
+.contact__social__link:focus {
     outline-color: #CD06FF;
 }
 
-.social__link:active {
+.contact__social__link:active {
     color: #840AA3;
 }
