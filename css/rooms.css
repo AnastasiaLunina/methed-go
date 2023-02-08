@@ -1,0 +1,61 @@
+.rooms {
+    padding-top: 200px;
+}
+
+.rooms__heading {
+    padding-bottom: 60px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rooms__item {
+    width: 100%;
+    height: 710px;
+}
+
+.rooms__item:last-child {
+    margin-bottom: 100px;
+  }
+
+.rooms__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.rooms__link {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 275px;
+    right: 0;
+}
+
+.rooms__item_eighty {
+    position: relative;
+    background: #050404 url('../assets/img/80-room.jpg') center center/cover no-repeat content-box padding-box;
+}
+
+.rooms__item_starwars {
+    position: relative;
+    background-image: url('../assets/img/starwars-room.jpg');
+}
+
+.rooms__item_wildwest {
+    position: relative;
+    background-image: url('../assets/img/wildwest-room.jpg');
+}
+
+.rooms__item_neon {
+    position: relative;
+    background-image: url('../assets/img/neon-room.jpg');
+}

@@ -1,2 +1,9 @@
-@import './style.css';
-@import './faq.css';
+@import './css/normalize.css';
+@import './css/style.css';
+@import './css/hero.css';
+@import './css/rooms.css';
+@import './css/book.css';
+@import './css/about.css';
+@import './css/reviews.css'; 
+@import './css/faq.css';
+@import './css/contacts.css';
