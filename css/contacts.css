@@ -1,6 +1,9 @@
+.contact {
+    padding: 50px 0;
+}
+
 .contact__heading {
     padding-bottom: 60px;
-    padding-top: 100px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;

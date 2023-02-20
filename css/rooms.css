@@ -1,5 +1,5 @@
 .rooms {
-    padding-top: 200px;
+    padding: 50px 0;
 }
 
 .rooms__heading {
@@ -19,7 +19,7 @@
 }
 
 .rooms__item:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 
 .rooms__item:not(:last-child) {

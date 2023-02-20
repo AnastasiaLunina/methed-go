@@ -1,6 +1,9 @@
+.faq {
+    padding: 50px 0;
+}
+
 .faq__heading {
     padding-bottom: 40px;
-    padding-top: 100px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
