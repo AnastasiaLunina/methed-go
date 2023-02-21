@@ -1,7 +1,47 @@
+.reviews {
+    padding: 50px 0;
+}
+
 .reviews__img {
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    max-width: 280px;
+    min-height: 280px;
+    float: left;
+    margin-right: 20px;
+}
+
+.reviews__heading {
+    padding-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reviews__paragraph {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.reviews__paragraph-review {
+    padding-top: 60px;
+}
+
+.reviews__paragraph-person {
+    margin-top: 11px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    clear: left;
+}
+
+.reviews__figure {
+    margin: 0 100px;
 }

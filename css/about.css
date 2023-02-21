@@ -86,3 +86,12 @@
     padding-bottom: 50px;
     margin-top: 0;
 }
+
+.about__blockquote__author__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: none;
+}
