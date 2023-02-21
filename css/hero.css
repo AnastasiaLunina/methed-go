@@ -1,17 +1,20 @@
 .hero {
-    min-height: 869px;
-    position: relative;
-    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 146px 0 50px 0;
 }
 
-.hero:after {
-    content: "";
-    background-image: url('../assets/img/hero.png');
+.hero__content {
+    width: 1180px;
+    min-height: 823px;
+    position: relative;
+}
+
+.hero__content:before {
+    content: url('../assets/img/hero.png');
     position: absolute;
-    width: 675px;
     height: 762px;
-    top: 207px;
-    right: 130px;
+    right: 0;
+    bottom: 0;
     z-index: -1;
 }
 
@@ -24,13 +27,12 @@
     letter-spacing: -0.1em;
     color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 146px;
+    /* margin-top: 146px; */
     z-index: 1;
+    height: 100%;
 }
 
 .hero__par {
-    min-width: 369px;
-    min-height: 50px;
     font-weight: 400;
     font-size: 28px;
     line-height: 50px;

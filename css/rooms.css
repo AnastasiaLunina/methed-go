@@ -1,61 +1,71 @@
 .rooms {
-    padding-top: 200px;
+    padding: 50px 0;
 }
 
 .rooms__heading {
-    padding-bottom: 60px;
-    font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rooms__wrapper {
+    display: inline-block;
 }
 
 .rooms__item {
-    width: 100%;
-    height: 710px;
-}
-
-.rooms__item:last-child {
-    margin-bottom: 100px;
-  }
-
-.rooms__item:not(:last-child) {
-    margin-bottom: 60px;
-}
-
-.rooms__link {
-    font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-    position: absolute;
-    width: 100%;
-    top: 275px;
-    right: 0;
+    margin-bottom: 20px;
 }
 
-.rooms__item_eighty {
+.rooms__item__link {
     position: relative;
-    background: #050404 url('../assets/img/80-room.jpg') center center/cover no-repeat content-box padding-box;
+    top: 150px;
 }
 
-.rooms__item_starwars {
-    position: relative;
+.rooms__item-eighties {
+    width: 580px;
+    height: 349px;
+    background-image: url('../assets/img/80-room.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-right: 7px;
+}
+
+.rooms__item-starwars {
+    width: 580px;
+    height: 349px;
     background-image: url('../assets/img/starwars-room.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-left: 7px;
 }
 
-.rooms__item_wildwest {
-    position: relative;
+.rooms__item-wildwest {
+    width: 580px;
+    height: 349px;
     background-image: url('../assets/img/wildwest-room.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    margin-right: 7px;
 }
 
-.rooms__item_neon {
-    position: relative;
+.rooms__item-neon {
+    width: 580px;
+    height: 349px;
     background-image: url('../assets/img/neon-room.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    margin-left: 7px;
 }

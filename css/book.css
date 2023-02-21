@@ -1,3 +1,7 @@
+.book {
+    padding: 50px 0;
+}
+
 .book__heading {
     padding-bottom: 60px;
     font-family: 'Arial', sans-serif;

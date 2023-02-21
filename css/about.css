@@ -1,6 +1,9 @@
+.about {
+    padding: 50px 0;
+}
+
 .about__heading {
     padding-bottom: 60px;
-    padding-top: 100px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -10,8 +13,36 @@
     text-transform: uppercase;
 }
 
+.about__blockquote__paragraph,
+.about__blockquote__paragraph-sub {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+
+    /* display: inline-block; */
+    /* width: 500px; */
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.about__blockquote__text-item {
+    margin-left: 35px;
+}
+
 .about__paragraph {
-    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -21,64 +52,46 @@
 }
 
 .about__paragraph:last-child {
-    padding-top:  50px;
-    padding-bottom: 78px;
+    margin-bottom: 0;
 }
 
-.about__owner_quote {
-    font-family: 'Arial', sans-serif;
+.about__blockquote__quote {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #6C0287;
+}
+
+.about__img {
+    float: left;
+    max-width: 600px;
+    margin-right: 80px;
+}
+
+.about__blockquote__author  {
+    margin-right: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.about__blockquote__author__img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%
+}
+
+.about__blockquote {
+    padding-top: 48px;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+.about__blockquote__author__title {
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 44px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.about__owner_quote:before {
-    content: " “ ";
-    display: inline;
-    color: #6C0287;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 50px;
-    text-transform: uppercase;
-    margin-left: 0;
-    padding-left: 0;
-
-}
-
-.about__owner_quote:after {
-    content: " ” ";
-    display: inline;
-    color: #6C0287;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 50px;
-    text-transform: uppercase;
-    margin-left: 0;
-    padding-left: 0;
-    
-}
-
-.about__owner_img-wrapper {
-    padding-left: 791px;
-    margin-right: 0;
-}
-
-.about__owner_img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    position: relative;
-    margin-right: 20px;
-}
-
-.about__owner_img-wrapper figcaption {
-    display: inline-block;
-    width: 234px;
-    height: 80px;
     font-size: 20px;
-    line-height: 32px;
-    white-space: pre-line;
+    line-height: 28px;
+    text-transform: none;
 }

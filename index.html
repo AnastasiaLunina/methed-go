@@ -17,7 +17,6 @@
 </head>
 
 <body>
-  <!-- <div class="container"> -->
   <!-- <header class="section">
       <img src="./assets/svg/logo.svg" alt="go logo" aria-hidden="true" width="120px" height="66px">
       <h1>Menu</h1>
@@ -74,35 +73,33 @@
         </ul>
       </section> -->
 
-    <section class="section rooms" id="section__rooms">
+
+    <section class="rooms" id="rooms">
       <div class="container">
 
-        <h2 class="rooms__heading">Our rooms</h2>
-        <ul class="rooms__list">
-          <li class="rooms__item rooms__item_eighty">
-            <a class="rooms__link" href="vibes.html">
-              <p>80's</p>
-              <p>vibes</p>
-            </a>
-          </li>
-          <li class="rooms__item rooms__item_starwars">
-            <a class="rooms__link" href="startwars.html">
-              <p>Star</p>
-              <p>wars</p>
-            </a>
-          </li>
-          <li class="rooms__item rooms__item_wildwest">
-            <a class="rooms__link" href="wildwest.html">
-              <p>Wild</p>
-              <p>west</p>
-            </a>
-          </li>
-          <li class="rooms__item rooms__item_neon">
-            <a class="rooms__link" href="neon.html">
-              <p>Neon</p>
-              <p>style</p>
-            </a>
-          </li>
+        <h3 class="rooms__heading">Our rooms</h3>
+
+        <ul>
+          <div class="rooms__wrapper">
+            <li class="rooms__item rooms__item-eighties">
+              <a class="rooms__item__link" href="vibes.html" target="_blank">80's vibes</a>
+            </li>
+          </div>
+          <div class="rooms__wrapper">
+            <li class="rooms__item rooms__item-starwars">
+              <a class="rooms__item__link" href="starwars.html" target="_blank">Star wars</a>
+            </li>
+          </div>
+          <div class="rooms__wrapper">
+            <li class="rooms__item rooms__item-wildwest">
+              <a class="rooms__item__link" href="wildwest.html" target="_blank">Wild west</a>
+            </li>
+          </div>
+          <div class="rooms__wrapper">
+            <li class="rooms__item rooms__item-neon">
+              <a class="rooms__item__link" href="neon.html" target="_blank">Neon style</a>
+            </li>
+          </div>
         </ul>
       </div>
     </section>
@@ -207,64 +204,63 @@
       </div>
     </section>
 
-    <section class="section about" id="section__about">
+    <section class="section about" id="about">
       <div class="container">
-
-        <h2 class="about__heading">About us</h2>
-        <div class="about__paragraph-wrapper">
+        <h3 class="about__heading">About us</h3>
+        <figcaption class="about__info">
+          <img src="./assets/img/about.png" class="about__img" alt="people">
           <p class="about__paragraph">For our guests we created conceptually new virtual reality gaming space in a heart
             of our city.</p>
           <p class="about__paragraph">Every day we are working on creating the best atmosphere for gaming and we want to
             continue bring a joy with our top notch games from all over the world.</p>
-        </div>
+        </figcaption>
+        <blockquote class="about__blockquote">
+          <p class="about__blockquote__paragraph"><span class="about__blockquote__quote">“ </span> GAME OVER-<br> </p>
+          <p class="about__blockquote__paragraph-sub">the place with unforgettable memories <span
+              class="about__blockquote__quote">”</span></p><br>
 
-        <div class="about__owner">
-          <blockquote class="about__owner_quote">
-            GAME OVER — <br>
-            the place with unforgettable memories
-          </blockquote>
-
-          <figure class="about__owner_img-wrapper">
-            <img class="about__owner_img" src="./assets/img/owner.jpg"
+          <figure class="about__blockquote__author">
+            <img src="./assets/img/owner.jpg" class="about__blockquote__author__img"
               alt="Arkadiy Abakshin, the creator of gaming space GAME OVER">
-            <figcaption>
-              Arkadiy Abakshin,
-              the creator of gaming space GAME OVER
+            <figcaption class="about__blockquote__author__title">Arkadiy Abakshin,
+              <br>the creator of gaming space
+              <br>GAME OVER
             </figcaption>
           </figure>
-        </div>
+        </blockquote>
       </div>
     </section>
 
-    <!-- <section class="section" id="section__reviews">
-        <h2>Reviews</h2>
+    <section class="section reviews" id="section__reviews">
+      <div class="container">
 
-        <figure>
-          <img class="reviews__img" src="./assets//img/review1.jpg" alt="Max Samoylov">
-          <figcaption>Mary Samoylova</figcaption>
-          <div>
-            <p>Celebrated a birthday here with my friends, everything was so cool! VR headset is amazing, never
-              experienced such a deep dive into a game! Service is great!</p>
-          </div>
+        <h3 class="reviews__heading ">Reviews</h3>
+
+        <figure class="reviews__figure">
+          <img class="reviews__img" src="./assets/img/review1.png" alt="Max Samoylov">
+          <p class="reviews__paragraph reviews__paragraph-review">Celebrated a birthday here with my friends, everything
+            was so cool!
+            VR headset is amazing, never
+            experienced such a deep dive into a game! Service is great!</p>
+          <figcaption class="reviews__paragraph reviews__paragraph-person">Max Samoylov</figcaption>
         </figure>
-        <figure>
-          <img class="reviews__img" src="./assets/img/review3.jpg" alt="Oxana Grigoreva">
-          <figcaption>Oxana Grigoreva</figcaption>
-          <div>
-            <p>We visited the Wild West room. We sang Shakira's songs in karaoke - it was a fun corporate event! There
-              are
-              no such places in our city.</p>
-          </div>
+        <figure class="reviews__figure">
+          <img class="reviews__img" src="./assets/img/review2.png" alt="Oxana Grigoreva">
+          <p class="reviews__paragraph reviews__paragraph-review">We visited the Wild West room.
+            We sang Shakira's songs in karaoke - it was a fun corporate event! There
+            are
+            no such places in our city.</p>
+          <figcaption class="reviews__paragraph reviews__paragraph-person">Oxana Grigoreva</figcaption>
         </figure>
-        <figure>
-          <img class="reviews__img" src="./assets/img/review2.jpg" alt="Nikita Yashenko">
-          <figcaption>Nikita Yashenko</figcaption>
-          <div>
-            <p>The game in the VR headset was a bit slow, other than that everything was OK. Cool Star wars decor, feels
-              like you are in space</p>
-          </div>
+        <figure class="reviews__figure">
+          <img class="reviews__img" src="./assets/img/review3.png" alt="Nikita Yashenko">
+          <p class="reviews__paragraph reviews__paragraph-review">The game in the VR headset was a bit slow, other than
+            that everything was OK. Cool Star wars decor, feels
+            like you are in space</p>
+          <figcaption class="reviews__paragraph reviews__paragraph-person">Nikita Yashenko</figcaption>
         </figure>
-      </section> -->
+      </div>
+    </section>
 
     <section class="section faq">
       <div class="container">
@@ -336,7 +332,6 @@
       </ul>
     </div>
   </footer>
-  <!-- </div> -->
 </body>
 
 </html>
