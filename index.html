@@ -80,26 +80,18 @@
         <h3 class="rooms__heading">Our rooms</h3>
 
         <ul>
-          <div class="rooms__wrapper">
             <li class="rooms__item rooms__item-eighties">
               <a class="rooms__item__link" href="vibes.html" target="_blank">80's vibes</a>
             </li>
-          </div>
-          <div class="rooms__wrapper">
             <li class="rooms__item rooms__item-starwars">
               <a class="rooms__item__link" href="starwars.html" target="_blank">Star wars</a>
             </li>
-          </div>
-          <div class="rooms__wrapper">
             <li class="rooms__item rooms__item-wildwest">
               <a class="rooms__item__link" href="wildwest.html" target="_blank">Wild west</a>
             </li>
-          </div>
-          <div class="rooms__wrapper">
             <li class="rooms__item rooms__item-neon">
               <a class="rooms__item__link" href="neon.html" target="_blank">Neon style</a>
             </li>
-          </div>
         </ul>
       </div>
     </section>
@@ -180,7 +172,7 @@
               Time<input type="time" id="time" name="time" required>
             </label>
             <label for="quantity">
-              How many guests<input type="number" inputmode="numeric" id="quantity" name="guests-quantity" required>
+              How many guests<input type="number" id="quantity" name="guests-quantity" required>
             </label>
             <label for="first-name">
               First Name<input type="text" id="first-name" name="first-name" required>
@@ -189,7 +181,7 @@
               Last Name<input type="text" id="last-name" name="last-name" required>
             </label>
             <label for="phone">
-              Phone<input type="tel" id="phone" name="phone" inputmode="tel" required>
+              Phone<input type="tel" id="phone" name="phone" required>
             </label>
             <label for="age">
               <input id="age" type="checkbox" name="age" value="age" required>I am at least 18 years old
@@ -207,13 +199,15 @@
     <section class="section about" id="about">
       <div class="container">
         <h3 class="about__heading">About us</h3>
-        <figcaption class="about__info">
+        <figure class="about__info">
           <img src="./assets/img/about.png" class="about__img" alt="people">
-          <p class="about__paragraph">For our guests we created conceptually new virtual reality gaming space in a heart
-            of our city.</p>
-          <p class="about__paragraph">Every day we are working on creating the best atmosphere for gaming and we want to
-            continue bring a joy with our top notch games from all over the world.</p>
-        </figcaption>
+          <figcaption>
+            <p class="about__paragraph">For our guests we created conceptually new virtual reality gaming space in a heart
+              of our city.</p>
+            <p class="about__paragraph">Every day we are working on creating the best atmosphere for gaming and we want to
+              continue bring a joy with our top notch games from all over the world.</p>
+          </figcaption>
+        </figure>
         <blockquote class="about__blockquote">
           <p class="about__blockquote__paragraph"><span class="about__blockquote__quote">“ </span> GAME OVER-<br> </p>
           <p class="about__blockquote__paragraph-sub">the place with unforgettable memories <span
@@ -264,7 +258,6 @@
 
     <section class="section faq">
       <div class="container">
-
         <h2 class="faq__heading">Frequently asked questions</h2>
         <ul class="faq__list">
           <li class="faq__list_item">Can I book game room online?</li>

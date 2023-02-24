@@ -24,6 +24,10 @@
     position: relative;
 }
 
+.faq__list_item:last-child {
+    margin-bottom: 0;
+}
+
 .faq__list_item:nth-child(even) {
     background-color: #440F51;
     color: #fff;
