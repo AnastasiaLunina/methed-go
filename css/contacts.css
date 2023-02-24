@@ -1,5 +1,5 @@
 .contact {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
 }
 
 .contact__heading {
@@ -62,8 +62,8 @@
     display: flex;
     justify-content: space-between;
     width: 280px;
-    padding-bottom: 51px;
-    padding-top: 51px;
+    /* padding-bottom: 51px; */
+    margin-top: 51px;
 }
 
 .contact__social__link {
