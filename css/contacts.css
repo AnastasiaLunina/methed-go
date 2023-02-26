@@ -14,7 +14,7 @@
 }
 
 .contact__item {
-    padding-left: 35px;
+    padding-left: 46px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -27,6 +27,18 @@
     position: relative;
 }
 
+.contact__item:first-child {
+    margin-bottom: 39px;
+}
+
+.contact__item:nth-child(2) {
+    margin-bottom: 11px;
+}
+
+.contact__item_address  {
+    width: 380px;
+}
+
 .contact__link_address-street:before {
     content: "";
     background-image: url("../assets/svg/contact-location.svg");
@@ -36,6 +48,7 @@
     height: 33px;
     left: 0;
     padding-right: 32px;
+    margin-right: 32px;
 }
 
 .contact__link_address-phone:before {

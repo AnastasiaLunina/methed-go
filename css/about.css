@@ -13,16 +13,15 @@
     text-transform: uppercase;
 }
 
-.about__blockquote__paragraph,
-.about__blockquote__paragraph-sub {
+.about__blockquote-wrapper {
+    margin-bottom: 39px;
+}
+
+.about__blockquote__paragraph {
     font-weight: 400;
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
-
-
-    /* display: inline-block; */
-    /* width: 500px; */
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -30,6 +29,10 @@
     line-height: 50px;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.about__blockquote__paragraph-sub {
+    margin: 0;
 }
 
 .about__blockquote__text-item {
@@ -42,7 +45,6 @@
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 40px;
-
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -70,7 +72,6 @@
 }
 
 .about__blockquote__author  {
-    margin-right: 0;
     font-size: 20px;
     line-height: 28px;
 }
