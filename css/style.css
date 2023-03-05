@@ -18,6 +18,12 @@
     margin: 0 auto;
 }
 
+.container__small {
+    max-width: 1080px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #1b1a1b;
     color: #ffffff;

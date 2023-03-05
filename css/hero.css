@@ -1,6 +1,6 @@
 .hero {
     margin-bottom: 0;
-    padding: 146px 0 50px 0;
+    padding: 28px 0 50px 0;
 }
 
 .hero__content {
@@ -27,7 +27,6 @@
     letter-spacing: -0.1em;
     color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* margin-top: 146px; */
     z-index: 1;
     height: 100%;
 }
@@ -38,4 +37,107 @@
     line-height: 50px;
     color: #ffffff;
     padding-left: 100px;
+}
+
+.hero__content-sub {
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+    position: absolute;
+    top: 500px;
+}
+
+.hero__content-sub_first_par,
+.hero__content-sub_second_par {
+    font-weight: 900;
+    line-height: 141px;
+    color: #CD06FF;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.hero__content-sub_second_par {
+    font-variant: all-small-caps;
+}
+
+.hero__content-sub_first, 
+.hero__content-sub_second {
+    width: 166px;
+    height: 174px;
+}
+
+.hero__content-sub_par_description {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 150px;   
+}
+
+.hero__button {
+    width: 374px;
+    height: 80px;
+    background: #6C0287;
+    border-radius: 10px;
+    flex: 1;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.hero__button:hover {
+    background: #840AA3;
+}
+
+.hero__button:active {
+    background: #640AA3;
+}
+
+.hero__button:focus {
+    background: #840AA3;
+}
+
+.hero__down-btn {
+    position: relative;
+    top: 350px;
+    left: 160px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+}
+
+.hero__svg {
+    fill: transparent;
+    transition: all 0.4s linear;
+}
+
+.hero__svg:hover {
+    fill: white;
+    transition: all 0.4s linear;
+}
+
+.hero__svg:hover rect {
+    fill-opacity: 1;
+    fill: #6C0287;
+    stroke-opacity: 0;
+}
+
+.hero__svg:active {
+    fill: #CD06FF;
+    transition: all 0.4s linear;
+}
+
+.hero__svg:active rect {
+    fill: white;
+    stroke-opacity: 0;
+}
+
+.hero__down-btn:focus {
+    background: transparent;
+    color: #6C0287
 }

@@ -1,0 +1,44 @@
+.header {
+    padding: 38px 0 28px 0;
+}
+
+.header__img {
+    width: 120px;
+    height: 66px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__nav_list_item {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__button {
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 280px;
+    height: 55px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

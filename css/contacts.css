@@ -1,5 +1,5 @@
 .contact {
-    padding: 50px 0 100px 0;
+    padding: 50px 0 0 0;
 }
 
 .contact__heading {
@@ -102,4 +102,30 @@
 
 .contact__social__link:active {
     color: #840AA3;
+}
+
+.contact__copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 156px;
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contact_copyright-sub-wrapper {
+    text-align: right;
+}
+
+.contacts__wrapper-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
 }

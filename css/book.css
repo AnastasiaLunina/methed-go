@@ -1,9 +1,11 @@
 .book {
-    padding: 50px 0;
+    padding: 80px 0 86px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #440f51;
 }
 
 .book__heading {
-    margin-bottom: 60px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -17,4 +19,201 @@
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+.legend__header {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+    padding-top: 40px;
+}
+
+.book__form-choose-room {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book__form-choose-room_button {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 7px 15px 8px 15px;
+    cursor: pointer;
+  }
+
+.book__form-choose-room_button input[type="radio"] {
+    display: none;
+  }
+
+.book__form-customize-set {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: auto;
+  }
+
+.book__form-choice {
+    display: flex;
+    flex-direction: column;
+}
+
+.book__form-choice legend {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.book__form-choice label {
+    margin-bottom: 22px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.book__form-choice label:last-child {
+    margin-bottom: 0;
+}
+
+.book__form-choice label input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.book__form-choice label input[type="radio"] {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+}
+
+.book__form-choice input {
+    vertical-align: middle;
+}
+
+.book__form-date {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .book__form-date-sub {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.book__form-date-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.book__form-date-time_wrapper {
+    display: flex;
+    width: 300px;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.book__form-date-time_wrapper input {
+    width: 134px;
+    height: 52px;
+    margin-bottom: 36px;
+}
+
+.book__form-date-sub input::placeholder {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 20px;
+    color: #211E1E;
+}
+
+.book__form-date-sub-datetime input#quantity {
+    width: 100%;
+    height: 52px;
+}
+
+.book__form-date-sub input#first-name,
+.book__form-date-sub input#last-name {
+    width: 280px;
+    height: 52px;
+}
+
+.hidden {
+    color: transparent;
+}
+
+.book__form-date-sub input#first-name,
+.book__form-date-sub input#last-name,
+.book__form-date-sub input#phone,
+.book__form-date-sub input#email  {
+    margin-bottom: 36px;
+    text-align: center;
+    width: 280px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.book-form__button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.book-form__button {
+    width: 250px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #440f51;
+}
+
+.book-form__button:hover {
+    color: #000000;
+    background: #EADEED;
+    border: 3px solid #640AA3;
+    transition: 1s;
+}
+
+.book-form__button:active {
+    background: #6C0287;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.book-form__button:focus {
+    background: #FFFFFF;
+    border-color: 3px solid #6C0287;
+    color: #000000;
 }
