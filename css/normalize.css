@@ -51,6 +51,11 @@ html {
   iframe {
     border: none;
   }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    cursor: pointer;
+  }
   
   /*
   Доступно скрываю элементы

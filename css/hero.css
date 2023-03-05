@@ -95,11 +95,11 @@
 }
 
 .hero__button:active {
-    background: #640AA3;
+    background: #840AA3;
 }
 
 .hero__button:focus {
-    background: #840AA3;
+    background: #640aa3;
 }
 
 .hero__down-btn {

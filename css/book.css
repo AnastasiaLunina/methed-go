@@ -55,18 +55,38 @@ fieldset {
     border-radius: 8px;
     padding: 7px 15px 8px 15px;
     cursor: pointer;
-  }
+    border: 3px solid transparent;
+}
+
+.book__form-choose-room_button:hover {
+    background: #EADEED;
+    border: 3px solid #640AA3;
+    border-radius: 8px;
+}
+
+.book__form-choose-room_button:focus {
+    background: #FFFFFF;
+    border: 3px solid #640AA3;
+    border-radius: 8px;
+}
+
+.book__form-choose-room_button:active {
+    background: #6C0287;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    color: #ffffff;
+}
 
 .book__form-choose-room_button input[type="radio"] {
     display: none;
-  }
+}
 
 .book__form-customize-set {
     display: flex;
     justify-content: space-between;
     max-width: 1080px;
     margin: auto;
-  }
+}
 
 .book__form-choice {
     display: flex;
@@ -90,6 +110,8 @@ fieldset {
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
+    cursor: pointer;
+
 }
 
 .book__form-choice label:last-child {
@@ -97,15 +119,36 @@ fieldset {
 }
 
 .book__form-choice label input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     width: 25px;
     height: 25px;
     margin-right: 12px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
+
+input[type="checkbox"]:checked::before {
+    content: '\2713';
+    font-size: 25px;
+    vertical-align: middle;
+    color: #CD06FF;
+    text-align: center;
+    line-height: 14px;
 }
 
 .book__form-choice label input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     width: 27px;
     height: 27px;
     margin-right: 12px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
 }
 
 .book__form-choice input {
@@ -117,7 +160,7 @@ fieldset {
     justify-content: space-around;
 }
 
- .book__form-date-sub {
+.book__form-date-sub {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -169,7 +212,7 @@ fieldset {
 .book__form-date-sub input#first-name,
 .book__form-date-sub input#last-name,
 .book__form-date-sub input#phone,
-.book__form-date-sub input#email  {
+.book__form-date-sub input#email {
     margin-bottom: 36px;
     text-align: center;
     width: 280px;
@@ -195,25 +238,53 @@ fieldset {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    border: none;
+    border: 3px solid transparent;
     color: #440f51;
 }
 
 .book-form__button:hover {
-    color: #000000;
     background: #EADEED;
-    border: 3px solid #640AA3;
-    transition: 1s;
-}
-
-.book-form__button:active {
-    background: #6C0287;
-    border: 3px solid #FFFFFF;
-    color: #FFFFFF;
+    border: 3px solid #6C0287;
+    border-radius: 10px;
 }
 
 .book-form__button:focus {
     background: #FFFFFF;
-    border-color: 3px solid #6C0287;
-    color: #000000;
+    border: 3px solid #6C0287;
+    border-radius: 10px;
+}
+
+.book-form__button:active {
+    background: #EADEED;
+    border-radius: 10px;
+    border: none;
+}
+
+.book__form-date-sub input#first-name,
+.book__form-date-sub input#last-name,
+.book__form-date-sub input#phone,
+.book__form-date-sub input#email,
+.book__form-date-sub input#date,
+.book__form-date-sub input#time,
+.book__form-date-sub input#quantity,
+.book__form-choice input[type="radio"],
+.book__form-choice input[type="checkbox"] {
+    outline: none;
+}
+
+.book__form-date-sub input#first-name:focus,
+.book__form-date-sub input#last-name:focus,
+.book__form-date-sub input#phone:focus,
+.book__form-date-sub input#email:focus,
+.book__form-date-sub input#date:focus,
+.book__form-date-sub input#time:focus,
+.book__form-date-sub input#quantity:focus,
+.book__form-choice input[type="radio"]:focus,
+.book__form-choice input[type="checkbox"]:focus {
+    background: #FFFFFF;
+    border: 2px solid #CD06FF;
+}
+
+.book__form-choice input[type="radio"]:checked {
+    background-color: #CD06FF;
 }

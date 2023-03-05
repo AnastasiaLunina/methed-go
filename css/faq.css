@@ -43,6 +43,7 @@
     position: absolute;
     right: 90px;
     top: 19px;
+    cursor: pointer;
 }
 
 .faq__list_item:nth-child(even):after {
@@ -55,4 +56,21 @@
     position: absolute;
     right: 90px;
     top: 19px;
+    cursor: pointer;
+}
+
+.faq__list_item:hover:after {
+    background-image: url("../assets/svg/faq-open-purple-hover.svg");
+}
+
+.faq__list_item:active:after {
+    background-image: url("../assets/svg/faq-open-purple-active.svg");
+}
+
+.faq__list_item:nth-child(even):hover:after {
+    background-image: url("../assets/svg/faq-open-hover.svg");
+}
+
+.faq__list_item:nth-child(even):active:after {
+    background-image: url("../assets/svg/faq-open-active.svg");
 }
