@@ -61,10 +61,12 @@
 
 .faq__list_item:hover:after {
     background-image: url("../assets/svg/faq-open-purple-hover.svg");
+    transition: background 0.6s ease-in-out;
 }
 
 .faq__list_item:active:after {
     background-image: url("../assets/svg/faq-open-purple-active.svg");
+    transition: background 0.6s ease-in-out;
 }
 
 .faq__list_item:nth-child(even):hover:after {

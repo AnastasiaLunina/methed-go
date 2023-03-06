@@ -91,15 +91,18 @@
 }
 
 .hero__button:hover {
-    background: #840AA3;
-}
-
-.hero__button:active {
-    background: #840AA3;
+    background-color: #840AA3;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .hero__button:focus {
-    background: #640aa3;
+    background-color: #840AA3;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.hero__button:active {
+    background-color: #640aa3;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .hero__down-btn {
@@ -113,12 +116,12 @@
 
 .hero__svg {
     fill: transparent;
-    transition: all 0.4s linear;
+    transition: all 0.5s linear;
 }
 
 .hero__svg:hover {
     fill: white;
-    transition: all 0.4s linear;
+    transition: all 0.5s linear;
 }
 
 .hero__svg:hover rect {
@@ -129,7 +132,7 @@
 
 .hero__svg:active {
     fill: #CD06FF;
-    transition: all 0.4s linear;
+    transition: all 0.5s linear;
 }
 
 .hero__svg:active rect {

@@ -25,6 +25,12 @@
     position: relative;
 }
 
+.description__list-item:hover {
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
 .description__list-par {
     position: absolute;
     bottom: 34px;

@@ -59,22 +59,25 @@ fieldset {
 }
 
 .book__form-choose-room_button:hover {
-    background: #EADEED;
+    background-color: #EADEED;
     border: 3px solid #640AA3;
     border-radius: 8px;
+    transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
 .book__form-choose-room_button:focus {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 3px solid #640AA3;
     border-radius: 8px;
+    transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
 .book__form-choose-room_button:active {
-    background: #6C0287;
+    background-color: #6C0287;
     border: 3px solid #FFFFFF;
     border-radius: 8px;
     color: #ffffff;
+    transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
 .book__form-choose-room_button input[type="radio"] {
@@ -243,21 +246,24 @@ input[type="checkbox"]:checked::before {
 }
 
 .book-form__button:hover {
-    background: #EADEED;
+    background-color: #EADEED;
     border: 3px solid #6C0287;
     border-radius: 10px;
+    transition: background-color 0.6s linear, border 0.6s linear;
 }
 
 .book-form__button:focus {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 3px solid #6C0287;
     border-radius: 10px;
+    transition: background-color 0.6s linear, border 0.6s linear;
 }
 
 .book-form__button:active {
-    background: #EADEED;
+    background-color: #EADEED;
     border-radius: 10px;
     border: none;
+    transition: background-color 0.6s linear, border 0.6s linear;
 }
 
 .book__form-date-sub input#first-name,

@@ -44,19 +44,22 @@
 }
 
 .header__button:hover {
-    background: #6C0287;
+    background-color: #6C0287;
     border: 3px solid #6C0287;
     border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .header__button:focus {
-    background: #6C0287;
+    background-color: #6C0287;
     border: 3px solid #6C0287;
     border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .header__button:active {
-    background: #640aa3;
+    background-color: #640aa3;
     border: 3px solid #640aa3;
     border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
 }
