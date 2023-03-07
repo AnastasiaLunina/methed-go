@@ -1,5 +1,6 @@
 .description {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
+    margin-bottom: 50px;
 }
 
 .description__heading {
@@ -17,12 +18,20 @@
 
 .description__list {
     display: flex;
+    align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 .description__list-item {
     position: relative;
+}
+.description__list-item:nth-child(2) {
+    padding: 40px 0 0 0;
+}
+
+.description__list-item:nth-child(5) {
+    padding: 20px 0 0 0;
 }
 
 .description__list-item:hover {
@@ -41,3 +50,4 @@
     line-height: 28px;
     max-width: 300px;
 }
+

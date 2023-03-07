@@ -1,10 +1,17 @@
 .header {
-    padding: 38px 0 28px 0;
+    padding: 38px 0 0 0;
+    margin-bottom: 28px;
 }
 
-.header__img {
+.header__link{
     width: 120px;
     height: 66px;
+    background: url("../assets/svg/logo.svg");
+}
+
+.header__link:hover {
+    background-image: url("../assets/svg/logo-hover.svg");
+    transition: background-image 0.5s ease-in-out;
 }
 
 .header__wrapper {
@@ -25,11 +32,22 @@
     font-size: 22px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
+.header__nav_list_item:hover {
+    color: var(--bright-violet);
+    transition: color 0.5s ease-in-out;
+}
+
+.header__nav_list_item:active {
+    color: var(--medium-violet);
+    transition: color 0.5s ease-in-out;
+}
+
+
 .header__button {
-    border: 3px solid #CD06FF;
+    border: 3px solid var(--bright-violet);
     border-radius: 10px;
     background-color: transparent;
     width: 280px;
@@ -40,26 +58,26 @@
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .header__button:hover {
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
+    background-color: var(--medium-violet);
+    border: 3px solid var(--medium-violet);
     border-radius: 10px;
     transition: background-color 0.5s ease-in-out;
 }
 
 .header__button:focus {
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
+    background-color: var(--medium-violet);
+    border: 3px solid var(--medium-violet);
     border-radius: 10px;
     transition: background-color 0.5s ease-in-out;
 }
 
 .header__button:active {
-    background-color: #640aa3;
-    border: 3px solid #640aa3;
+    background-color: var(--light-violet);
+    border: 3px solid var(--light-violet);
     border-radius: 10px;
     transition: background-color 0.5s ease-in-out;
 }

@@ -1,9 +1,10 @@
 .about {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
+    margin-bottom: 50px;
 }
 
 .about__heading {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     font-family: 'Arial', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -28,7 +29,7 @@
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .about__blockquote__paragraph-sub {
@@ -50,7 +51,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .about__paragraph:last-child {
@@ -62,7 +63,7 @@
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--medium-violet);
 }
 
 .about__img {

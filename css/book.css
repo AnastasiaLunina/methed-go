@@ -2,7 +2,7 @@
     padding: 80px 0 86px 0;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #440f51;
+    background-color: var(--dark-violet);
 }
 
 .book__heading {
@@ -32,7 +32,7 @@ fieldset {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 47px;
     padding-top: 40px;
 }
@@ -50,8 +50,8 @@ fieldset {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
-    background: #FFFFFF;
+    color: var(--black);
+    background: var(--white);
     border-radius: 8px;
     padding: 7px 15px 8px 15px;
     cursor: pointer;
@@ -59,24 +59,24 @@ fieldset {
 }
 
 .book__form-choose-room_button:hover {
-    background-color: #EADEED;
-    border: 3px solid #640AA3;
+    background-color: var(--light-pink);
+    border: 3px solid var(--light-violet);
     border-radius: 8px;
     transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
 .book__form-choose-room_button:focus {
-    background-color: #FFFFFF;
-    border: 3px solid #640AA3;
+    background-color: var(--white);
+    border: 3px solid var(--light-violet);
     border-radius: 8px;
     transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
 .book__form-choose-room_button:active {
-    background-color: #6C0287;
-    border: 3px solid #FFFFFF;
+    background-color: var(--medium-violet);
+    border: 3px solid var(--white);
     border-radius: 8px;
-    color: #ffffff;
+    color: var(--white);
     transition: background-color 0.6s ease-in-out, border 0.6s linear;
 }
 
@@ -102,7 +102,7 @@ fieldset {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 23px;
 }
 
@@ -114,7 +114,6 @@ fieldset {
     font-size: 22px;
     line-height: 25px;
     cursor: pointer;
-
 }
 
 .book__form-choice label:last-child {
@@ -128,8 +127,8 @@ fieldset {
     width: 25px;
     height: 25px;
     margin-right: 12px;
-    border: 2px solid #ffffff;
-    background-color: #ffffff;
+    border: 2px solid var(--white);
+    background-color: var(--white);
 }
 
 
@@ -137,7 +136,7 @@ input[type="checkbox"]:checked::before {
     content: '\2713';
     font-size: 25px;
     vertical-align: middle;
-    color: #CD06FF;
+    color: var(--bright-violet);
     text-align: center;
     line-height: 14px;
 }
@@ -150,8 +149,8 @@ input[type="checkbox"]:checked::before {
     height: 27px;
     margin-right: 12px;
     border-radius: 50%;
-    border: 2px solid #ffffff;
-    background-color: #ffffff;
+    border: 2px solid var(--white);
+    background-color: var(--white);
 }
 
 .book__form-choice input {
@@ -194,7 +193,7 @@ input[type="checkbox"]:checked::before {
     font-size: 18px;
     line-height: 28px;
     padding-left: 20px;
-    color: #211E1E;
+    color: var(--dark);
 }
 
 .book__form-date-sub-datetime input#quantity {
@@ -222,7 +221,7 @@ input[type="checkbox"]:checked::before {
     height: 52px;
     font-size: 18px;
     line-height: 28px;
-    color: #211E1E;
+    color: var(--dark);
 }
 
 .book-form__button-wrapper {
@@ -234,7 +233,7 @@ input[type="checkbox"]:checked::before {
 .book-form__button {
     width: 250px;
     height: 55px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px;
     font-weight: 700;
     font-size: 30px;
@@ -242,25 +241,25 @@ input[type="checkbox"]:checked::before {
     text-align: center;
     text-transform: uppercase;
     border: 3px solid transparent;
-    color: #440f51;
+    color: var(--dark-violet);
 }
 
 .book-form__button:hover {
-    background-color: #EADEED;
-    border: 3px solid #6C0287;
+    background-color: var(--light-pink);
+    border: 3px solid var(--medium-violet);
     border-radius: 10px;
     transition: background-color 0.6s linear, border 0.6s linear;
 }
 
 .book-form__button:focus {
-    background-color: #FFFFFF;
-    border: 3px solid #6C0287;
+    background-color: var(--white);
+    border: 3px solid var(--medium-violet);
     border-radius: 10px;
     transition: background-color 0.6s linear, border 0.6s linear;
 }
 
 .book-form__button:active {
-    background-color: #EADEED;
+    background-color: var(--light-pink);
     border-radius: 10px;
     border: none;
     transition: background-color 0.6s linear, border 0.6s linear;
@@ -287,10 +286,10 @@ input[type="checkbox"]:checked::before {
 .book__form-date-sub input#quantity:focus,
 .book__form-choice input[type="radio"]:focus,
 .book__form-choice input[type="checkbox"]:focus {
-    background: #FFFFFF;
-    border: 2px solid #CD06FF;
+    background: var(--white);
+    border: 2px solid var(--bright-violet);
 }
 
 .book__form-choice input[type="radio"]:checked {
-    background-color: #CD06FF;
+    background-color: var(--bright-violet);
 }
